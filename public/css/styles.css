@@ -49,3 +49,11 @@ button {
   color: white;
   padding: 8px;
 }
+
+.box {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}

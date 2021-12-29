@@ -13,7 +13,7 @@ const forecast = (latitude, longitude, callback) => {
     if (error) {
       callback('Unable to connect to weather service!' + error, undefined);
     } else {
-      callback(undefined, body.weather[0].description);
+      callback(undefined, body);
     }
   });
 };
