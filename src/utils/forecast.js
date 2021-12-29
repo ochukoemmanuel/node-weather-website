@@ -1,7 +1,7 @@
 const request = require('request');
 
 const forecast = (latitude, longitude, callback) => {
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=4403e3690b3769d16ad28d2db3876f5c`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`;
 
   //   const darkSky_url =
   //     'https://api.darksky.net/forecast/' + process.env.DARK_NET_API_KEY + '/' +
